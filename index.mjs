@@ -21,21 +21,83 @@ inquirer
   .prompt([
     {
       type: 'input',
-      message: 'What is your name?',
+      message: "Please enter the team manager's name:",
       name: 'name',
     },
     {
-      type: 'checkbox',
-      message: 'What languages do you know?',
-      choices: ['English', 'Spanish', 'French'],
-      name: 'language',
+      type: 'input',
+      message: "Please enter the team manager's Employee ID:",
+      name: 'id',
     },
     {
-      type: 'checkbox',
-      message: 'What is your preferred mode of communication?',
-      choices: ['Email', 'Text', 'Call'],
-      name: 'communication',
+      type: 'input',
+      message: "Please enter the team manager's email address:",
+      name: 'email',
     },
+    {
+      type: 'input',
+      message: "Please enter the team manager's office number:",
+      name: 'office number',
+    },
+    {
+      type: 'list',
+      message: 'Do you wish to:',
+      choices: ['Add an engineer', 'Add an intern', 'Finish building the team'],
+      name: 'option',
+    },
+    {
+      type: 'input',
+      message: "Please enter the engineer's name:",
+      name: 'name',
+    },
+    {
+      type: 'input',
+      message: "Please enter the engineer's Employee ID:",
+      name: 'id',
+    },
+    {
+      type: 'input',
+      message: "Please enter the engineer's email address:",
+      name: 'email',
+    },
+    {
+      type: 'input',
+      message: "Please enter the engineer's GitHub username:",
+      name: 'github',
+    },
+    {
+      type: 'list',
+      message: 'Do you wish to:',
+      choices: ['Add an engineer', 'Add an intern', 'Finish building the team'],
+      name: 'option',
+    },
+    {
+      type: 'input',
+      message: "Please enter the intern's name:",
+      name: 'name',
+    },
+    {
+      type: 'input',
+      message: "Please enter the intern's Employee ID:",
+      name: 'id',
+    },
+    {
+      type: 'input',
+      message: "Please enter the intern's email address:",
+      name: 'email',
+    },
+    {
+      type: 'input',
+      message: "Please enter the intern's school:",
+      name: 'school',
+    },
+    {
+      type: 'list',
+      message: 'Do you wish to:',
+      choices: ['Add an engineer', 'Add an intern', 'Finish building the team'],
+      name: 'option',
+    },
+    
   ])
   .then((response) =>
   {
