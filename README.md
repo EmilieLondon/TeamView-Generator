@@ -6,7 +6,7 @@ It includes test files to ensure the code runs correctly.
 
 https://emilielondon.github.io/TeamView-Generator
 
-<img width="522" alt="Screenshot_20230224_184024" src="https://user-images.githubusercontent.com/91503119/221263927-6c41a33e-a5e8-40bd-a648-80033483e931.png">
+<img width="521" alt="Screenshot_20230224_185224" src="https://user-images.githubusercontent.com/91503119/221266920-7d50b162-d784-42ff-b9f3-747dea17de71.png">
 
 ## License
 MIT License
